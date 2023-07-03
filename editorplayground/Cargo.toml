@@ -1,0 +1,19 @@
+[package]
+name = "editorplayground"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+r3vi = { path = "../r3vi" }
+nested = { path = "../nested/nested" }
+subprocess = "0.2.9"
+cgmath = "*"
+termion = "1.5.5"
+bincode = "*"
+libc = "0.2.*"
+portable-pty = "0.4.0"
+clap = { version = "4.1.6", features = ["derive"] }
+
+[dependencies.async-std]
+version = "1.9.0"
+features = ["unstable", "attributes"]

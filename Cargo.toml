@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "r3vi",
+    "nested/nested",
+    "shell",
+    "editorplayground"
+]
