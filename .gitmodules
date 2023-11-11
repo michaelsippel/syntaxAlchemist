@@ -1,15 +1,16 @@
-[submodule "r3vi"]
-	path = r3vi
-	url = https://github.com/michaelsippel/r3vi.git
-[submodule "nested"]
-	path = nested
-	url = https://github.com/michaelsippel/nested.git
-[submodule "shell"]
-	path = shell
-	url = https://github.com/michaelsippel/shell.git
+[submodule "lib-r3vi"]
+	path = lib-r3vi
+	url = ../lib-r3vi
+[submodule "lib-nested"]
+	path = lib-nested
+	url = ../lib-nested
 [submodule "lib-laddertypes"]
 	path = lib-laddertypes
-	url = ./lib-laddertypes
+	url = ../lib-laddertypes
 [submodule "ltsh"]
 	path = ltsh
-	url = ./ltsh
+	url = ../ltsh
+[submodule "shell"]
+	path = shell
+	url = ../shell
+

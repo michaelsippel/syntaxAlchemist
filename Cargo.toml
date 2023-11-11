@@ -1,7 +1,12 @@
 [workspace]
 members = [
-    "r3vi",
-    "nested/nested",
+    "lib-r3vi",
+    "lib-nested/lib-nested-core",
+    "lib-nested/lib-nested-tty",
+    "lib-nested/display-server-tty",
+    "lib-nested/pty-server",
+    "lib-laddertypes",
+    "ltsh",
     "shell",
     "editorplayground"
 ]
