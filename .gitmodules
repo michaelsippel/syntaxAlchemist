@@ -7,3 +7,9 @@
 [submodule "shell"]
 	path = shell
 	url = https://github.com/michaelsippel/shell.git
+[submodule "lib-laddertypes"]
+	path = lib-laddertypes
+	url = ./lib-laddertypes
+[submodule "ltsh"]
+	path = ltsh
+	url = ./ltsh
