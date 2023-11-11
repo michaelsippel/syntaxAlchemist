@@ -1,6 +1,8 @@
 [workspace]
 members = [
-    "r3vi",
+    "lib-laddertypes",
+    "ltsh",
+    "lib-r3vi",
     "nested/nested",
     "shell",
     "editorplayground"
